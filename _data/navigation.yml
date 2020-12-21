@@ -1,0 +1,23 @@
+main:
+  - title: "Posts"
+    url: /posts/
+  - title: "Tags"
+    url: /tags/
+  - title: "About"
+    url: /about/
+  - title: "Friends"
+    url: /friends/
+
+
+
+side:
+  - title: navigation
+    children:
+    - title: "Posts"
+      url: /posts/
+    - title: "Tags"
+      url: /tags/
+    - title: "About"
+      url: /about/
+    - title: "Friends"
+      url: /friends/

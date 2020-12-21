@@ -1,0 +1,13 @@
+---
+layout: single
+title:  "test post"
+date:   2020-12-19 21:13:46 +0800
+tags: jekyll test
+
+excerpt: "This post should display a **header with a solid background color**, if the theme supports it."
+header:
+  overlay_color: "#333"
+
+---
+some content
+中文

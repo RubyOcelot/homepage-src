@@ -33,4 +33,4 @@ jobs:
         git add --all
         git commit --message "Auto deploy from GitHub Actions build $GITHUB_RUN_NUMBER"
         git remote add deploy https://${{ secrets.GH_TOKEN }}@github.com/RubyOcelot/RubyOcelot.github.io.git 
-        git push --force deploy gh-pages 
+        git push --force deploy master

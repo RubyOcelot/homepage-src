@@ -131,6 +131,7 @@ exclude:
   - package-lock.json
   - Rakefile
   - README
+  - REMOTE_README.md
   - tmp
 keep_files:
   - .git

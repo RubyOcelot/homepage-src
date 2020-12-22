@@ -26,6 +26,7 @@ jobs:
         JEKYLL_GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
     - name: Deploy site
       run: |
+        cp REMOTE_README.md _site/README.md
         cd _site
         git init
         git config user.name "GitHub"

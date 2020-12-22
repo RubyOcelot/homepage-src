@@ -10,7 +10,7 @@ header:
     - label: "<i class='fas fa-user-circle'></i> About"
       url: "/about/"
     - label: "<i class='fas fa-book'></i> Blog"
-      url: "/blog/"
+      url: "/posts/"
     - label: "<i class='fab fa-github'></i> GitHub"
       url: "https://github.com/RubyOcelot"
 ---

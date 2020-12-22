@@ -1,8 +1,15 @@
 body.welcome {
 	
+	background-color: #ffffe3;
+	div.masthead {
+		display: none;
+	}
 
+	div.page__footer {
+		display: none;
+	}
+	
 	div.page__hero--overlay {
-        //background-color: #333;
 		text-align: center;
 		height: calc(100vh - 4em);
 		background-attachment: fixed;

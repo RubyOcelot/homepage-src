@@ -1,6 +1,6 @@
 ---
 title: "RubyOcelot"
-excerpt: "ovo"
+excerpt: "(>^ω^<)"
 layout: splash
 classes: ["welcome"]
 permalink: /

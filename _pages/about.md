@@ -6,13 +6,15 @@ permalink: /about/
 
 This is Ruby_Ocelot (aka loliw)
 
-19 y.o. A student
+A CS major student
 
-Studying Computer Science at USTC
+Studied Computer Science as an undergraduate at University of Science and Technology of China from 2018 to 2022
+
+Pursuing Master of Computer Science degree at UC Irvine
 
 Love fantasy & daydreaming
 
-I enjoy thinking and love to embrace new things:D
+Enjoy thinking and love to embrace new things:D
 
 My Email:
 

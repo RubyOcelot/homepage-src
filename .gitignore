@@ -4,6 +4,9 @@
 *~
 .vscode
 
+#OS
+.DS_Store
+
 # Generated content
 _site
 .sass-cache

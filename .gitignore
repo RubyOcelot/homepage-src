@@ -1,3 +1,17 @@
+# Editors
+*.swp
+*.sw_
+*~
+.vscode
+
+# Generated content
 _site
 .sass-cache
+.git-metadata
+.jekyll-cache
 .jekyll-metadata
+
+# Bundler
+Gemfile.lock
+/vendor
+.bundle/

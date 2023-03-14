@@ -38,15 +38,15 @@ words_per_minute: 250
 search: true
 #search_provider: algolia #no account
 og_image: /assets/images/avatar.jpg
-timezone: Asia/Shanghai
+timezone: America/Los_Angeles
 
 author:
   name: "RubyOcelot"
   avatar: "/assets/images/avatar.jpg"
   bio: >-
-    19 y.o. A student 
-  
-  location: "USTC"
+    Miaow~
+
+  location: "UCI"
   links:
 #    - label: "Made Mistakes"
 #      icon: "fas fa-fw fa-link"

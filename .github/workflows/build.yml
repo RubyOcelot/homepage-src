@@ -5,7 +5,7 @@ on:
     branches:
       - master
   workflow_dispatch: {}
-  
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -49,5 +49,4 @@ jobs:
         git reset --soft FETCH_HEAD
         git add --all
         git commit --message "Auto deploy from GitHub Actions build $GITHUB_RUN_NUMBER"
-        git remote -v
         git push deploy master

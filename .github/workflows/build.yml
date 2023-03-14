@@ -44,9 +44,10 @@ jobs:
         git init
         git config user.name "GitHub"
         git config user.email "noreply@github.com"
-        git remote add deploy https://${{ secrets.GH_TOKEN }}@github.com/RubyOcelot/RubyOcelot.github.io.git >/dev/null 2>&1
+        git remote add deploy https://RubyOcelot:${{ secrets.GH_TOKEN }}@github.com/RubyOcelot/RubyOcelot.github.io.git >/dev/null 2>&1
         git fetch --depth=1 deploy master
         git reset --soft FETCH_HEAD
         git add --all
         git commit --message "Auto deploy from GitHub Actions build $GITHUB_RUN_NUMBER"
+        git remote -v
         git push deploy master >/dev/null 2>&1

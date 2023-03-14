@@ -18,6 +18,7 @@ theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "dirt"
 locale: "en-US"
 title: RubyOcelot's Homepage
+title_separator : "-"
 subtitle: "Version 0.0"
 name: "RubyOcelot"
 description: >- # this means to ignore newlines until "baseurl:"
@@ -113,8 +114,11 @@ exclude:
   - vendor
   - .asset-cache
   - .bundle
+  - .github/
+  - .gitignore
   - .jekyll-assets-cache
   - .sass-cache
+  - .vscode
   - assets/js/plugins
   - assets/js/_main.js
   - assets/js/vendor
@@ -125,17 +129,16 @@ exclude:
   - Gemfile.lock
   - Gruntfile.js
   - gulpfile.js
+  - "LICENSE*"
   - log
   - node_modules
   - package.json
   - package-lock.json
   - Rakefile
-  - README
+  - README.md
   - REMOTE_README.md
   - tmp
-keep_files:
-  - .git
-  - .svn
+keep_files: [".git", ".nojekyll", "README.md", "CNAME"]
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 

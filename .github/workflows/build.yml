@@ -50,4 +50,4 @@ jobs:
         git add --all
         git commit --message "Auto deploy from GitHub Actions build $GITHUB_RUN_NUMBER"
         git remote -v
-        git push deploy master >/dev/null 2>&1
+        git push deploy master

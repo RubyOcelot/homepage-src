@@ -1,5 +1,5 @@
 main:
-  - title: Notes"
+  - title: "Notes"
     url: "https://notes.loliw.moe/"
   - title: "Posts"
     url: /posts/
@@ -13,7 +13,7 @@ main:
 home:
   - title: Navigation
     children:
-    - title: Notes"
+    - title: "Notes"
       url: "https://notes.loliw.moe/"
     - title: "Posts"
       url: /posts/

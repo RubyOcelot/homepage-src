@@ -10,20 +10,22 @@ main:
   - title: "Friends"
     url: /friends/
 
-home:
-  - title: Navigation
-    children:
-    - title: "Notes"
-      url: "https://notes.loliw.moe/"
-    - title: "Posts"
-      url: /posts/
-    - title: "Tags"
-      url: /tags/
-    - title: "About"
-      url: /about/
-    - title: "Friends"
-      url: /friends/
+# Not Working
+# home:
+#   - title: Navigation
+#     children:
+#     - title: "Notes"
+#       url: "https://notes.loliw.moe/"
+#     - title: "Posts"
+#       url: /posts/
+#     - title: "Tags"
+#       url: /tags/
+#     - title: "About"
+#       url: /about/
+#     - title: "Friends"
+#       url: /friends/
 
+# Not Working (old version)
 # side:
 #   - title: navigation
 #     children:

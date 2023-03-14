@@ -11,11 +11,10 @@ header:
       url: "/about/"
     - label: "<i class='fas fa-book'></i> Blog"
       url: "/posts/"
+    - label: "<i class="fas fa-pen-to-square"></i> Notes"
+      url: "https://notes.loliw.moe/"
     - label: "<i class='fab fa-github'></i> GitHub"
       url: "https://github.com/RubyOcelot"
 ---
 
 <script>document.getElementById('page-title').insertAdjacentHTML('beforebegin', '<img src="/assets/images/avatar.jpg" alt="RubyOcelot" class="avatar" itemprop="image" />');</script>
-
-
-

@@ -1,4 +1,6 @@
 main:
+  - title: Notes"
+    url: "https://notes.loliw.moe/"
   - title: "Posts"
     url: /posts/
   - title: "Tags"
@@ -8,11 +10,11 @@ main:
   - title: "Friends"
     url: /friends/
 
-
-
-side:
-  - title: navigation
+home:
+  - title: Navigation
     children:
+    - title: Notes"
+      url: "https://notes.loliw.moe/"
     - title: "Posts"
       url: /posts/
     - title: "Tags"
@@ -21,3 +23,15 @@ side:
       url: /about/
     - title: "Friends"
       url: /friends/
+
+# side:
+#   - title: navigation
+#     children:
+#     - title: "Posts"
+#       url: /posts/
+#     - title: "Tags"
+#       url: /tags/
+#     - title: "About"
+#       url: /about/
+#     - title: "Friends"
+#       url: /friends/
